@@ -49,3 +49,6 @@ elif opcao == 4:
     vparcelas = valor_final / nparcelas
     print(f'Pagamento em cartão parcelado em {nparcelas}x COM JUROS de 20%, valor final: R${valor_final:.2f}')
     print(f'Você pagará R${valor_final:.2f} em {nparcelas}x de R${vparcelas:.2f}')
+else:
+    print('Opção de pagamento invalida! Tente novamente.')
+    
