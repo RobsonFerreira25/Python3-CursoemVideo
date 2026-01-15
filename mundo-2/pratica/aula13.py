@@ -23,11 +23,16 @@ for c in range(10, -1, -2):
     print(c)
 
 # Soma de todos os números
-print(f'{" Soma de todos os números ":=^40}')
+print(f'{" Soma de todos os números" :=^40}')
 soma = 0
 for c in range(0, 5):
-    soma += c
     print(c)
-print(f'A soma de todos os numeros é: {soma}')
+    soma += c
+print(f'A soma de todos os números é: {soma}')
+
+# Contagem de números pares
+print(f'{" Contagem de numeros pares" :=^40}')
+for c in range(0, 11, 2):
+    print(c)
 
 system('pause')
