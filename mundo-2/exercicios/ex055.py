@@ -6,4 +6,12 @@ peso_menor = 0
 
 for c in range(5):
     peso = float(input('Digite o seu peso: '))
-print(c)
+    if c == 1:
+        peso_maior = peso
+        peso_menor = peso
+    else:
+        if peso > peso_maior:
+            peso_maior = peso
+        if peso < peso_menor:
+            peso_menor = peso
+print(f'O maior peso é {peso_maior} e o menor peso é {peso_menor}')
